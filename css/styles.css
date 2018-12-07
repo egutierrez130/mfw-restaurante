@@ -100,9 +100,14 @@ nav .navbar {
 }
 
 /* Our Story section */
+@media (max-width: 768px) {
+  .story_year {
+    font-size: 160px;
+  }
+}
 
 #our_story, #menu, #review, #contact {
-  min-height: 600px;
+  min-height: 700px;
 }
 
 #our_story .row {
@@ -171,36 +176,111 @@ nav .navbar {
 
 #our_story h1,
 #review h1,
-#review p {
+#review p
+#menu h1 {  q
   text-shadow: 1px 1px 5px #0a0a0a;
 }
 
 /* Menu section */
+
 #menu {
   background-image: url('../img/black_linen.png');
   background-size: cover;
   background-attachment: fixed;
-}
-
-/* #menu .nav-tabs > .active > a,
-#menu .nav-tabs > .active > a:hover {
-  color:
-  background-color: white;
-} */
-
-#menu .navbar {
-  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 70px;
 }
 
 #menu h1 {
+  color: #fff;
   font-family: 'Lobster', cursive;
-  font-size: 5em;
+  font-size: 6em;
 }
 
-#menu .navbar .nav-tabs > li > a {
-  color: #f8512f;
+#menu h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
 }
 
-/* #appetizer, #lunch, #dinner, #dessert {
-  color: #f8512f;
-} */
+#menu a {
+  color: #f8512a;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#menu p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.food {
+  background-color: #fff;
+  padding: 20px 0px;
+}
+
+#menu .nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.1)
+  border-color: transparent;
+}
+
+#menu .nav-justified li a {
+  margin-bottom: -5px;
+}
+
+#menu .nav-tabs li a {
+  border: none;
+}
+
+/* Contact section */
+
+.contact_form {
+  background-color: #ff6633;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.contact_form form {
+  padding: 5% 0;
+}
+
+.contact_form span {
+  color: #ff0d06;
+}
+
+#contact {
+  background-color: #f8512f;
+}
+
+#contact h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 4em;
+}
+
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #fff;
+  font-size: 1em;
+}
+
+#contact_fine_print {
+  font-size: 12px !important;
+  text-align: center;
+}
+
+address {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+.contact_bottom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
