@@ -32,7 +32,7 @@
   background-color:  transparent;
 }
 
-nav .navbar {
+nav.navbar {
   position: absolute;
   top: 100;
   right: 0;
@@ -46,6 +46,7 @@ nav .navbar {
 }
 
 /* Carousel section */
+
 /*100vh = It will take up the whole screen no matter how much content it has  */
 .wrap {
   min-height: 100vh;
